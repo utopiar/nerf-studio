@@ -4,3 +4,10 @@
 * DTU
 * nerf_llff_data
 * mipnerf360
+
+相机坐标系
+* Opencv/colmap [right, down, front]
+* llff [down, right, back]
+* OpenGl/NeRF [right, up, back]
+* Blender [right, up, back]
+* Pytorch3D [left, up, front]

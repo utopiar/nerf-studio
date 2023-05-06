@@ -1,0 +1,20 @@
+_target_: src.data.colmap_datamodule.ColmapDataModule
+
+batch_size: 128
+train_val_test_split: [55_000, 5_000, 10_000]
+num_workers: 0
+pin_memory: False
+
+data_set:
+  _target_: src.data.components.colmap_dataset.ColmapDataset
+  data_dir: ${paths.data_dir}mipnerf360/garden
+  data_type: train
+  downscale: 2
+# net:
+#   _target_: src.models.components.simple_dense_net.SimpleDenseNet
+#   input_size: 784
+#   lin1_size: 64
+#   lin2_size: 128
+#   lin3_size: 64
+#   output_size: 10
+
