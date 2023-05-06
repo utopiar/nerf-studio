@@ -8,6 +8,6 @@ permalink: /docs/blog
 
 # Blog
 
-记录nerf相关论文
+记录NeRF相关技术及进展
 
 {: .fs-6 .fw-300 }

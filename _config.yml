@@ -17,21 +17,19 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-domain: utopiar.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-url: https://utopiar.github.io  # the base hostname and protocol for your site, e.g. http://example.com
+domain: blog.nerfstudio.top       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://blog.nerfstudio.top  # the base hostname and protocol for your site, e.g. http://example.com
 baseurl: /nerf-studio     # place folder name if the site is served in a subfolder
 
-title: Your awesome title
+title: NeRF Research Project
 email: utopiar@nerfstudio.top
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-twitter_username: jekyllrb
-github_username:  jekyll 
+twitter_username: utopiar
+github_username:  utopiar
 remote_theme: just-the-docs/just-the-docs
-
-
 
 exclude:
  # from https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml:
@@ -96,8 +94,8 @@ enable_copy_code_button: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "Just the Docs on GitHub":
-    - "//github.com/utopiar/nerf-studio"
+  "NeRF studio on GitHub":
+    - "http://github.com/utopiar/nerf-studio"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
@@ -108,8 +106,8 @@ nav_sort: case_sensitive # Capital letters sorted before lowercase
 
 # External navigation links
 nav_external_links:
-  - title: Just the Docs on GitHub
-    url: https://github.com/5ixiaoru/jekyll-blog
+  - title: NeRF studio on GitHub
+    url: http://github.com/utopiar/nerf-studio
 
 # Footer content
 # appears at the bottom of every page's main content
@@ -118,7 +116,7 @@ nav_external_links:
 back_to_top: true
 back_to_top_text: "Back to top"
 
-footer_content: "Copyright &copy; 2017-2020 Patrick Marsceill. Distributed by an <a href=\"https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt\">MIT license.</a> <a href=\"https://www.netlify.com/\">This site is powered by Netlify.</a>"
+footer_content: "Copyright &copy; 2017-2023 Utopiar. Distributed by an <a href=\"https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt\">MIT license.</a> <a href=\"https://www.netlify.com/\">This site is powered by Netlify.</a>"
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
