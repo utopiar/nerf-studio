@@ -7,8 +7,8 @@ nav_order: 7
 
 <script defer src="https://unpkg.com/img-comparison-slider@7/dist/index.js"></script>
 <link rel="stylesheet" href="https://unpkg.com/img-comparison-slider@7/dist/styles.css"/>
-<script src="../../../assets/js/my-js.js"></script>
-<link rel="stylesheet" href="../../../assets/css/my-css.css"/>
+<script src="{{site.baseurl}}/assets/js/my-js.js"></script>
+<link rel="stylesheet" href="{{site.baseurl}}/assets/css/my-css.css"/>
 
 ---
 
